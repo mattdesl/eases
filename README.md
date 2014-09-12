@@ -2,9 +2,9 @@
 
 # eases
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-This is a grab-bag of easing equations, most of the code from [glsl-easings](https://www.npmjs.org/package/glsl-easings). Pull requests for optimizations are welcome. 
+This is a grab-bag of [Robert Penner's easing equations](http://www.robertpenner.com/easing/), most of the code from [glsl-easings](https://www.npmjs.org/package/glsl-easings). Pull requests for optimizations are welcome. 
 
 ```js
 //require all eases
@@ -18,7 +18,7 @@ var quadIn = require('eases/quad-in')
 
 [![NPM](https://nodei.co/npm/eases.png)](https://nodei.co/npm/eases/)
 
-Each easing has its own file which can be required individually. The entry point also exports all eases with `camelCase`, so `require('eases/expo-in-out')` becomes `require('eases').expoInOut`.
+Each easing has its own file which can be required individually. The entry point also exports all eases with camelCase, so `require('eases/expo-in-out')` becomes `require('eases').expoInOut`.
 
 Full list of eases:
 
@@ -58,7 +58,7 @@ require('eases/sine-out')
 
 All easing functions only remap a time value, and all have the same signature.
 
-# ```ease(t)```
+#### ```ease(t)```
 
 Where `t` is typically a value between 0 and 1, and it returns a new float that has been eased. 
 
