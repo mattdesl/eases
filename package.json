@@ -1,6 +1,6 @@
 {
   "name": "eases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "grab bag of easing equations",
   "main": "index.js",
   "license": "MIT",
