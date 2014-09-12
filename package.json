@@ -1,0 +1,39 @@
+{
+  "name": "eases",
+  "version": "1.0.0",
+  "description": "grab bag of easing equations",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.13.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/eases.git"
+  },
+  "homepage": "https://github.com/mattdesl/eases",
+  "bugs": {
+    "url": "https://github.com/mattdesl/eases/issues"
+  }
+}
