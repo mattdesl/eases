@@ -4,10 +4,7 @@
   "description": "grab bag of easing equations",
   "main": "index.js",
   "license": "MIT",
-  "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com"
-  },
+  "author": "Matt DesLauriers <dave.des@gmail.com>",
   "dependencies": {},
   "devDependencies": {
     "tape": "~2.13.2"
@@ -35,5 +32,26 @@
   "homepage": "https://github.com/mattdesl/eases",
   "bugs": {
     "url": "https://github.com/mattdesl/eases/issues"
-  }
+  },
+  "keywords": [
+    "ease",
+    "eases",
+    "robert",
+    "penner",
+    "easing",
+    "easings",
+    "linear",
+    "lerp",
+    "animation",
+    "tween",
+    "anim",
+    "animations",
+    "tweening",
+    "tweens",
+    "function",
+    "functions",
+    "expo",
+    "quint",
+    "quadratic"
+  ]
 }
