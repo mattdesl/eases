@@ -1,5 +1,3 @@
-[![browser support](https://ci.testling.com/mattdesl/eases.png)](https://ci.testling.com/mattdesl/eases)
-
 # eases
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
