@@ -10,7 +10,8 @@
     "tape": "~2.13.2"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "dev": "beefy demo/index"
   },
   "testling": {
     "files": "test.js",

@@ -1,5 +1,5 @@
 function sineInOut(t) {
-  return 0.5 * 1.0 - Math.cos(t * Math.PI)
+  return -0.5 * (Math.cos(Math.PI*t) - 1)
 }
 
 module.exports = sineInOut

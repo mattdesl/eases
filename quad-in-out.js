@@ -1,7 +1,8 @@
 function quadInOut(t) {
-  return t > 0.5
-    ? +2.0 * t * t
-    : -2.0 * t * t + (4.0 * t) - 1.0
+    t /= 0.5
+    if (t < 1) return 0.5*t*t
+    t--
+    return -0.5 * (t*(t-2) - 1)
 }
 
 module.exports = quadInOut
