@@ -1,5 +1,5 @@
 function circOut(t) {
-  return Math.sqrt((2.0 - t) * t)
+  return Math.sqrt(1 - ( --t * t ))
 }
 
 module.exports = circOut
