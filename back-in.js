@@ -1,5 +1,6 @@
 function backIn(t) {
-  return Math.pow(t, 3.0) - t * Math.sin(t * Math.PI)
+  var s = 1.70158
+  return t * t * ((s + 1) * t - s)
 }
 
 module.exports = backIn

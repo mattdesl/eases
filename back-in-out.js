@@ -1,13 +1,8 @@
 function backInOut(t) {
-  var f = t < 0.5
-    ? 2.0 * t
-    : 1.0 - (2.0 * t - 1.0)
-
-  var g = Math.pow(f, 3.0) - f * Math.sin(f * Math.PI)
-
-  return t < 0.5
-    ? 0.5 * g
-    : 0.5 * (1.0 - g) + 0.5
+  var s = 1.70158 * 1.525
+  if ((t *= 2) < 1)
+    return 0.5 * (t * t * ((s + 1) * t - s))
+  return 0.5 * ((t -= 2) * t * ((s + 1) * t + s) + 2)
 }
 
 module.exports = backInOut
