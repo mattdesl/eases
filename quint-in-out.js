@@ -1,7 +1,6 @@
 function qinticInOut(t) {
-  return t < 0.5
-    ? +16.0 * Math.pow(t, 5.0)
-    : -0.5 * Math.pow(2.0 * t - 2.0, 5.0) + 1.0
+    if ( ( t *= 2 ) < 1 ) return 0.5 * t * t * t * t * t
+    return 0.5 * ( ( t -= 2 ) * t * t * t * t + 2 )
 }
 
 module.exports = qinticInOut

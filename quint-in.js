@@ -1,5 +1,5 @@
 function qinticIn(t) {
-  return Math.pow(t, 5.0)
+  return t * t * t * t * t
 }
 
 module.exports = qinticIn
