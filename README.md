@@ -56,7 +56,7 @@ require('eases/sine-out')
 
 All easing functions only remap a time value, and all have the same signature.
 
-#### ```ease(t)```
+#### ```v = ease(t)```
 
 Where `t` is typically a value between 0 and 1, and it returns a new float that has been eased. 
 

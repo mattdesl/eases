@@ -1,3 +1,5 @@
+// Could do with proper tests...
+
 var eases = require('./')
 var test = require('tape').test
 
