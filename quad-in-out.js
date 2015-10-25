@@ -5,4 +5,4 @@ function quadInOut(t) {
     return -0.5 * (t*(t-2) - 1)
 }
 
-module.exports = quadInOut
+module.exports = quadInOut;

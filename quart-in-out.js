@@ -4,4 +4,4 @@ function quarticInOut(t) {
     : -8.0 * Math.pow(t - 1.0, 4.0) + 1.0
 }
 
-module.exports = quarticInOut
+module.exports = quarticInOut;

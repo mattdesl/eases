@@ -2,4 +2,4 @@ function cubicIn(t) {
   return t * t * t
 }
 
-module.exports = cubicIn
+module.exports = cubicIn;

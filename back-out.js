@@ -3,4 +3,4 @@ function backOut(t) {
   return --t * t * ((s + 1) * t + s) + 1
 }
 
-module.exports = backOut
+module.exports = backOut;

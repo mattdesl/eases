@@ -4,4 +4,4 @@ function sineIn (t) {
   else return 1 - v
 }
 
-module.exports = sineIn
+module.exports = sineIn;

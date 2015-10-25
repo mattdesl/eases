@@ -3,4 +3,4 @@ function cubicOut(t) {
   return f * f * f + 1.0
 }
 
-module.exports = cubicOut
+module.exports = cubicOut;
