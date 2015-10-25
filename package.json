@@ -2,15 +2,20 @@
   "name": "eases",
   "version": "1.0.8",
   "description": "grab bag of easing equations",
-  "main": "index.js",
+  "main": "dist/eases.umd.js",
+  "jsnext:main": "dist/eases.es6.js",
   "license": "MIT",
   "author": "Matt DesLauriers <dave.des@gmail.com>",
   "dependencies": {},
   "devDependencies": {
+    "rollup": "^0.19.2",
     "tape": "~2.13.2"
   },
   "scripts": {
     "test": "node test.js",
+    "pretest": "npm run build",
+    "build": "node scripts/build.js",
+    "prepublish": "npm run build",
     "dev": "beefy demo/index"
   },
   "testling": {

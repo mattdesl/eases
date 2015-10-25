@@ -18,4 +18,4 @@ function bounceOut(t) {
         : 10.8 * t * t - 20.52 * t + 10.72
 }
 
-module.exports = bounceOut
+module.exports = bounceOut;

@@ -2,4 +2,4 @@ function quadIn(t) {
   return t * t
 }
 
-module.exports = quadIn
+module.exports = quadIn;

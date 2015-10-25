@@ -3,4 +3,4 @@ function backIn(t) {
   return t * t * ((s + 1) * t - s)
 }
 
-module.exports = backIn
+module.exports = backIn;

@@ -6,4 +6,4 @@ function expoInOut(t) {
       : -0.5 * Math.pow(2.0, 10.0 - (t * 20.0)) + 1.0
 }
 
-module.exports = expoInOut
+module.exports = expoInOut;

@@ -2,4 +2,4 @@ function linear(t) {
   return t
 }
 
-module.exports = linear
+module.exports = linear;
