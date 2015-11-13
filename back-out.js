@@ -1,6 +1,6 @@
 function backOut(t) {
-  var s = 1.70158
-  return --t * t * ((s + 1) * t + s) + 1
+  var f = 1 - t;
+  return 1 - (Math.pow(f, 3) - f * Math.sin(f * Math.PI))
 }
 
 module.exports = backOut
