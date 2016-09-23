@@ -18,6 +18,31 @@ var quadIn = require('eases/quad-in')
 
 Each easing has its own file which can be required individually. The entry point also exports all eases with camelCase, so `require('eases/expo-in-out')` becomes `require('eases').expoInOut`.
 
+```javascript
+$ node
+> const decimals = new Array(11).fill(true).map( (_,i) => i/10);
+undefined
+
+> decimals;
+[ 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ]
+
+> const quadIn = require('eases/quad-in');
+undefined
+
+> decimals.map(quadIn);
+[ 0,
+  0.010000000000000002,
+  0.04000000000000001,
+  0.09,
+  0.16000000000000003,
+  0.25,
+  0.36,
+  0.48999999999999994,
+  0.6400000000000001,
+  0.81,
+  1 ]
+```
+
 Full list of eases:
 
 ```js
